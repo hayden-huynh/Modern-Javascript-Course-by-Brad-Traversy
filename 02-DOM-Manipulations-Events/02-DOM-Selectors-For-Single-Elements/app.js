@@ -33,8 +33,8 @@ document.querySelector('ul li').style.color = 'blue';
 document.querySelector('li:last-child').style.color = 'red';
 document.querySelector('li:nth-child(3)').style.color = 'green';
 document.querySelector('li:nth-child(4)').textContent = 'Hello World!';
-document.querySelector('li:nth-child(odd)').style.background = '#ccc'; // Only the first element is affected
-document.querySelector('li:nth-child(even)').style.background = '#f4f4f4'; // Only the first element is affected
+document.querySelector('li:nth-child(odd)').style.background = '#ccc'; // Only the first odd element is affected
+document.querySelector('li:nth-child(even)').style.background = '#f4f4f4'; // Only the first even element is affected
 
 
 

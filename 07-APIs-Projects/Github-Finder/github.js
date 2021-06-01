@@ -22,7 +22,7 @@ class GitHub {
     });
 
     const profile = await profileResponse.json();
-    const profile = await repoResponse.json();
+    const repos = await repoResponse.json();
 
     return {
       profile, // Same as profile: profile

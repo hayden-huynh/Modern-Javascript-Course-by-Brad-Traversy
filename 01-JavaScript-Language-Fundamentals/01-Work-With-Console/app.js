@@ -20,13 +20,13 @@ console.clear();
 console.warn('This is a warning!');
 
 // Run anything between time and timeEnd and output the amount of time taken
-console.time('Consold Logging');
+console.time('Console Logging');
     console.log('Hello World!');
     console.log('Hello World!');
     console.log('Hello World!');
     console.log('Hello World!');
     console.log('Hello World!');
-console.timeEnd('Consold Logging');
+console.timeEnd('Console Logging');
 
 /*
 *

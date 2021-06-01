@@ -20,7 +20,7 @@ let val;
 val = window.outerHeight;
 val = window.outerWidth;
 
-// Outer height and width
+// Inner height and width
 val = window.innerHeight;
 val = window.innerWidth;
 

@@ -44,19 +44,19 @@ val = firstName.charAt(2);
 // Get last character
 val = firstName.charAt(firstName.length - 1);
 
-// substring()
+// substring(a, b): Starting from a up to but not including b
 val = firstName.substring(0, 4);
 
 // slice(): quite similar to substring
-val = firstName.slice(0,4);
-val = firstName.slice(-3); // Start from right end if negative value is given
+val = firstName.slice(0, 4);
+val = firstName.slice(-3); // Start from right end if negative value is given and take that number of characters
 
 // split(): returns an array of substrings splitted by the specified char
 val = str.split(' ');
 val = tags.split(',');
 
 // replace(): searches for first param and replaces it with second param
-val = str.replace('Brad' , 'Jack');
+val = str.replace('Brad', 'Jack');
 
 // includes(): checks if something is in the string
 val = str.includes('Hello');
